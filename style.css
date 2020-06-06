@@ -1,0 +1,284 @@
+/* gloobal style sheet */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color:#00e673;
+
+}
+
+.logo{
+    color: white;
+    margin: 0px 20px;
+}
+
+#navbar ul{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: ubanto;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 9px 20px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.7s;
+}
+
+
+
+/* this is home section */
+
+
+
+
+
+#home{
+    background-image: url('images/home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn1{
+    text-decoration: none;
+    font-family: ubanto;
+    padding: 10px 40px;
+    font-weight: bold;
+    background-color: rgb(221, 145, 46);
+    border: 2px solid purple;
+    border-radius: 30px;
+    margin: 50px;
+}
+
+
+
+/* this is newarrival section */
+
+
+#newitem{
+    text-align: center;
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: rgb(112, 216, 126);
+}
+
+#newitem h1{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+
+.newrep{
+    display: flex;
+}
+
+.newbox{
+    text-align: center;
+    margin: 20px 30px;
+    padding: 10px;
+    border: 2px solid rgb(224, 69, 69);
+    border-radius: 20px;
+    background-color: rgb(167, 135, 135);
+}
+
+.newbox h2{
+    font-family: ubanto;
+    margin-top: 20px;
+}
+
+.newbox p{
+    font-family: fontoo;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.newbox img{
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.pizza{
+    height: 60px;
+}
+
+.anda{
+    height: 50px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn{
+    font-family: ubanto;
+    padding: 10px 40px;
+    font-weight: bold;
+    background-color: rgb(94, 129, 129);
+    border: 2px solid purple;
+    border-radius: 30px;
+    margin: 50px;
+}
+
+
+/* this is srvices section */
+
+
+#services{
+    background-image: url('images/home1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+#services h1{
+    font-size: 2.5rem;
+    font-family: ubanto;
+}
+
+.serrep{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.serbox{
+    margin: 30px;
+    background-color: rgb(162, 163, 172);
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+
+.serrep img{
+    width: 100px;
+}
+
+
+.serbox h2{
+    font-family: ubanto;
+    margin: 20px 0px;
+    font-size: 1.7rem;
+}
+
+.serbox p{
+    font-family: fontoo;
+    font-size: 0.8rem;
+
+}
+
+
+/* this is feed back section */
+
+
+
+.formg input,
+.formg textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.formg label{
+    font-weight: bold;
+    font-family: fontoo;
+    margin-top: 30px;
+}
+
+
+#feedback{
+    width: 50%;
+    margin: auto;
+}
+
+#feedback h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.feedrep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0px;
+}
+
+.feed{
+    background-color: rgb(112, 216, 126);
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+    font-family: fontoo;
+}
+
+
+
+/* utility classes */
+
+@font-face{
+    font-family: ubanto ;
+    src: url('Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: fontoo;
+    src: url('ChelseaMarket-Regular.ttf');
+}
+
+h1{
+    font-family: ubanto;
+}
+
+.h-primery{
+    font-family: ubanto;
+    font-size: 3.0rem;
+}
+
+.p-primery{
+    font-family: fontoo;
+}
